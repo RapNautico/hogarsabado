@@ -119,7 +119,7 @@ class Animales extends BaseController{
 
             $modelo=new AnimalModelo();
             $modelo->update($id,$datos);
-            return redirect()->to(site_url('/animales/registro'))->with('mensaje',"exito editando el producto");
+            return redirect()->to(site_url('/animales/listado'))->with('mensaje',"exito editando el producto");
 
 
 

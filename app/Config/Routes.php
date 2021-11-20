@@ -44,7 +44,9 @@ $routes->post('/animales/registro/nuevo', 'Animales::registrar');
 $routes->get('/animales/buscar_animales/(:num)', 'Animales::buscar_animales/$1');
 $routes->post('/animales/editar/(:num)', 'Animales::editar/$1');
 $routes->delete('/animales/eliminar/(:num)','Animales::eliminar/$1');
-//routes animal
+//RUTAS API
+$routes->get('/casahogar/v1/productos', 'ApiProductos::buscarProductos');
+$routes->get('/casahogar/v1/productos(:num)', 'ApiProductos::buscarProducto/$1');
 
 /*
  * --------------------------------------------------------------------
