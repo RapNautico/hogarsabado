@@ -92,31 +92,31 @@
 			</div>
 			<div class="row d-flex justify-content-center mt-5 mx-5 mb-5">
 				<div class="col-1">
-					<a href="<?= site_url('/animales/buscar_animales/.1')?>">
+					<a href="<?= site_url('/animales/buscar_animales/'.'1')?>">
 						<img src="<?= base_url('public/img/dog-icon.png')?>" alt="icono1" class="img-fluid zoom">
 					</a>
             		<p class="text-center">perros</p>
           		</div>
 				<div class="col-1">
-					<a href="<?= site_url('/animales/buscar_animales/.2')?>">
+					<a href="<?= site_url('/animales/buscar_animales/'.'2')?>">
 						<img src="<?= base_url('public/img/cat-icon.png')?>" alt="icono1" class="img-fluid zoom">
 					</a>
 					<p class="text-center">gatos</p>
 				</div>
 				<div class="col-1">
-					<a href="<?= site_url('/animales/buscar_animales/.3')?>">
+					<a href="<?= site_url('/animales/buscar_animales/'.'3')?>">
 						<img src="<?= base_url('public/img/bird-icon.png')?>" alt="icono1" class="img-fluid zoom">
 					</a>
 					<p class="text-center">Aves</p>
 				</div>
 				<div class="col-1">
-					<a href="<?= site_url('/animales/buscar_animales/.4')?>">
+					<a href="<?= site_url('/animales/buscar_animales/'.'4')?>">
 						<img src="<?= base_url('public/img/reptile-icon.png')?>" alt="icono1" class="img-fluid zoom">
 					</a>
 					<p class="text-center">reptiles</p>
 				</div>
 				<div class="col-1">
-					<a href="<?= site_url('/animales/buscar_animales/.5')?>">
+					<a href="<?= site_url('/animales/buscar_animales/'.'5')?>">
 						<img src="<?= base_url('public/img/horse-icon.png')?>" alt="icono1" class="img-fluid zoom">
 					</a>
 					<p class="text-center">caballos</p>
